@@ -1,0 +1,17 @@
+A primeira tabela do trabalho foi criada com o seguinte código SQL:
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente VARCHAR(150) NOT NULL,
+    cidade VARCHAR(100) NOT NULL UNIQUE,
+    estado VARCHAR(50) NOT NULL,
+);
+
+A SEGUNDA TABELA DO TRABALHO FOI CRIADA COM O SEGUINTE CÓDIGO SQL:
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    senha DECIMAL(255) NOT NULL,   
+);

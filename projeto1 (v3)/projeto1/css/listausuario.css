@@ -1,0 +1,10 @@
+.listausuario {
+    width: 36%;
+    margin: auto;
+    padding: 7px;
+    border: 3px solid #4a90e2;
+    border-radius: 12px;
+    background-color: #f0f8ff;
+    font-style: italic;
+    text-align: center;
+}
